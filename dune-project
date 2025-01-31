@@ -1,11 +1,11 @@
 (lang dune 3.13)
 
-(name lifeboat)
+(name enfpal)
 
 (generate_opam_files true)
 
 (source
- (github runtime-enforcement/whyenf))
+ (github runtime-enforcement/enfpal))
 
 (authors
  "François Hublet <fhublet@ethz.ch>"
@@ -25,7 +25,7 @@
 (using menhir 3.0)
 
 (package
- (name lifeboat)
+ (name enfpal)
  (synopsis "")
  (description "")
  (depends

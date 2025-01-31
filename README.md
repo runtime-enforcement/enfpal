@@ -1,17 +1,17 @@
-# LIFEBOAT: a proactive real-time first-order enforcer
+# EnfPal: a proactive real-time first-order enforcer
 
 ## Authors
 
-The LIFEBOAT enforcer is the successor of the WhyEnf enfocer, which itself shares part of its
+The EnfPal enforcer is the successor of the WhyEnf enfocer, which itself shares part of its
 code base with the WhyMon monitoring tool.
 
-The following individuals have contributed to the development of LIFEBOAT, WhyEnf, and/or WhyMon:
+The following individuals have contributed to the development of EnfPal, WhyEnf, and/or WhyMon:
 
-* François Hublet (ETH Zürich): LIFEBOAT (lead), WhyEnf (co-lead)
-* Leonardo Lima (University of Copenhagen): LIFEBOAT, WhyEnf (co-lead), WhyMon (lead)
-* Srđan Krstić (ETH Zürich): LIFEBOAT, WhyEnf
-* Dmitriy Traytel (University of Copenhagen): LIFEBOAT, WhyEnf, WhyMon
-* David Basin (ETH Zürich): LIFEBOAT, WhyEnf
+* François Hublet (ETH Zürich): EnfPal (lead), WhyEnf (co-lead)
+* Leonardo Lima (University of Copenhagen): EnfPal, WhyEnf (co-lead), WhyMon (lead)
+* Srđan Krstić (ETH Zürich): EnfPal, WhyEnf
+* Dmitriy Traytel (University of Copenhagen): EnfPal, WhyEnf, WhyMon
+* David Basin (ETH Zürich): EnfPal, WhyEnf
 
 ## Getting Started
 
@@ -62,4 +62,3 @@ $ dune clean
 ## License
 
 This project and its predecessors WhyEnf and WhyMon are licensed under the GNU Lesser GPL-3.0 license - see [LICENSE](LICENSE) for details.
-
