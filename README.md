@@ -2,7 +2,7 @@
 
 ## Authors
 
-The EnfPal enforcer is the successor of the WhyEnf enfocer, which itself shares part of its
+The EnfPal enforcer is the successor of the WhyEnf enforcer, which itself shares part of its
 code base with the WhyMon monitoring tool.
 
 The following individuals have contributed to the development of EnfPal, WhyEnf, and/or WhyMon:
@@ -47,10 +47,10 @@ From the root folder, you can compile the code with
 $ dune build
 ```
 
-to obtain the executable **whyenf.exe** inside the folder [bin](bin/). Moreover, you can run one of our predefined examples with
+to obtain the executable **enfpal.exe** inside the folder [bin](bin/). Moreover, you can run one of our predefined examples with
 
 ```
-$ ./bin/whyenf.exe -sig examples/enforcement/paper/case_study/arfelt.sig -formula examples/enforcement/paper/case_study/formulae_whyenf/arfelt_2_limitation.mfotl -log examples/enforcement/paper/case_study/arfelt.log
+$ ./bin/enfpal.exe -sig examples/case_study/arfelt_et_al_2019.sig -formula examples/case_study/formulae_whyenf/limitation.mfotl -log examples/case_study/arfelt_et_al_2019.log
 ```
 
 You can remove the binary and clean the working directory with
